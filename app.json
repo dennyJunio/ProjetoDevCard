@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "DevCard",
+    "slug": "projeto-devcard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.seuusuario.devcard"
+    },
+    "plugins": [
+      [
+        "expo-router"
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
