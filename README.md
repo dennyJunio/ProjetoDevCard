@@ -1,43 +1,41 @@
-# XP Concursos 🚀
+💳 DevCard
 
-Este projeto é um aplicativo móvel gamificado desenvolvido para auxiliar estudantes na preparação para concursos públicos, ajudando a construir hábitos de estudo consistentes através de uma experiência focada e produtiva.
+O DevCard é um aplicativo mobile desenvolvido para que desenvolvedores criem, personalizem e visualizem os seus próprios cartões de visita digitais de forma rápida e intuitiva. 
 
-O projeto foi inteiramente baseado nos requisitos solicitados na atividade prática. A estilização foi desenvolvida de forma básica e funcional com o auxílio de Inteligência Artificial para garantir uma interface limpa. Além disso, como diferencial, grande parte do código foi minuciosamente comentada para proporcionar uma melhor leitura, legibilidade e fácil compreensão de toda a arquitetura e fluxo lógico.
-
----
-
-## 📱 Demonstração da Interface
-
-Abaixo estão as capturas de tela do aplicativo que ilustram o fluxo do usuário e as principais interfaces do projeto:
-
-<div align="center">
-  <img src="./image_f8a1e7.png" width="250" alt="Tela do Aplicativo 1" />
-  <img src="./image_f8f38a.png" width="250" alt="Tela do Aplicativo 2" />
-  <img src="./image_f8f3a6.png" width="250" alt="Tela do Aplicativo 3" />
-</div>
-
-<div align="center">
-  <img src="./image_f8f3a9.png" width="250" alt="Tela do Aplicativo 4" />
-  <img src="./image_f8f3c1.png" width="250" alt="Tela do Aplicativo 5" />
-  <img src="./image_f8f3c7.png" width="250" alt="Tela do Aplicativo 6" />
-</div>
+Este projeto foi desenvolvido estritamente conforme o solicitado na atividade prática proposta. A interface conta com uma estilização básica e moderna construída com o auxílio de Inteligência Artificial. Visando as boas práticas de desenvolvimento e a facilidade de estudo, deixei grande parte do código amplamente comentado.
 
 ---
 
-## ✨ Características do Projeto
+Fluxo do Aplicativo
 
-* **Foco no Aprendizado:** Interface direta e intuitiva desenhada para que o estudante mantenha o foco no conteúdo.
-* **Código Altamente Comentado:** Cada módulo, tela e função principal possui comentários detalhados explicando a lógica aplicada, ideal para fins de avaliação e entendimento do fluxo.
-* **Estilização Inteligente:** Design básico aprimorado com ferramentas de IA para otimizar o alinhamento, legibilidade e distribuição de componentes.
+Abaixo está o passo a passo da jornada do utilizador dentro da aplicação, demonstrando o funcionamento e a transição entre as telas com base na interface real do projeto:
 
-## 🛠️ Tecnologias Utilizadas
+1. Tela Inicial (Boas-vindas)
+O ponto de partida da aplicação, onde o utilizador é introduzido ao propósito do app através de uma interface limpa e um botão de ação destacado para iniciar o processo.
+<p align="center">
+  <img src="image_f8f3c7.png" alt="Tela Inicial DevCard" width="300"/>
+</p>
 
-* **React Native / TypeScript** (ou JavaScript) - Estrutura principal do desenvolvimento mobile.
-* **Expo** - Plataforma para facilidade de execução e testes em dispositivos físicos ou emuladores.
-* **CSS / Estilização Modular** - Para o acabamento visual dos componentes da interface.
+2. Formulário de Criação (Vazio)
+A tela onde o desenvolvedor introduz as suas informações profissionais. Os campos incluem: Nome, Cargo, Empresa (opcional), Anos de Experiência e a Tecnologia Favorita. Nesta mesma secção, encontra-se o seletor de cores para personalizar o fundo do cartão.
+<p align="center">
+  <img src="image_f8f3a9.png" alt="Formulário Vazio" width="300"/>
+</p>
 
-## 🚀 Como Executar o Projeto
+3. Preenchimento de Dados e Seleção de Cor
+Uma demonstração prática do formulário preenchido. O seletor de cores possui um feedback visual claro (uma borda de destaque) na cor selecionada pelo utilizador (neste caso, a cor Roxa) antes de gerar o resultado final.
+<p align="center">
+  <img src="image_f8f38a.png" alt="Formulário Preenchido" width="300"/>
+</p>
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/annysaldanhadev/xp-concursos.git](https://github.com/annysaldanhadev/xp-concursos.git)
+4. Visualização do Cartão Gerado
+Após clicar em "Gerar Cartão", os dados são processados e a aplicação renderiza o cartão finalizado. O componente aplica dinamicamente a cor escolhida e calcula de forma automática a senioridade do programador (ex: "Júnior" com base nos anos de experiência inseridos).
+<p align="center">
+  <img src="image_f8f3a6.png" alt="Visualização do Cartão" width="300"/>
+</p>
+
+5. Tela de Sucesso
+Após a criação e validação, o utilizador é direcionado para uma tela de feedback positivo que confirma a conclusão com sucesso, permitindo também retornar para criar um novo cartão se assim desejar.
+<p align="center">
+  <img src="image_
+</div>
