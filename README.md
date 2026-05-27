@@ -4,8 +4,6 @@ O DevCard é um aplicativo mobile desenvolvido para que desenvolvedores criem, p
 
 Este projeto foi desenvolvido estritamente conforme o solicitado na atividade prática proposta. A interface conta com uma estilização básica e moderna construída com o auxílio de Inteligência Artificial. Visando as boas práticas de desenvolvimento e a facilidade de estudo, deixei grande parte do código amplamente comentado.
 
----
-
 Fluxo do Aplicativo
 
 Abaixo está o passo a passo da jornada do utilizador dentro da aplicação, demonstrando o funcionamento e a transição entre as telas com base na interface real do projeto:
